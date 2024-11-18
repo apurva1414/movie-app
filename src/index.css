@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #010101; */
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-prev {
+  background-color: #5c5c5c;
+  border-radius: 50%;
+}
+
+.slick-next {
+  background-color: #5c5c5c;
+  border-radius: 50%;
+}
+
+.slick-slide,
+.slick-active,
+.slick-current {
+  outline: none;
+  width: 205px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.react-player__preview {
+  border-radius: 7px;
+}
+
+.react-player__shadow {
+  background-color: #fafafa !important;
+  margin-top: 90px !important;
+}
+
+.react-player__preview {
+  display: block !important;
+}
+
+.rc-slider-handle {
+  border: none !important;
+}
