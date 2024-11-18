@@ -1,10 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HomePage } from "./pages";
-import Favorites from "./pages/Favorites";
-import MovieDetailPage from "./pages/MovieDetailPage";
+import { Favorites, HomePage, MovieDetailPage } from "./pages";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>

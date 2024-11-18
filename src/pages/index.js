@@ -1,5 +1,5 @@
 import HomePage from "./HomePage";
+import Favorites from "./Favorites";
+import MovieDetailPage from "./MovieDetailPage";
 
-export{
-    HomePage
-}
+export { HomePage, Favorites, MovieDetailPage };
