@@ -88,7 +88,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Dropdown Menu options */}
       {isOpen && (
         <div className="md:hidden bg-purple-900 text-gray-300">
           <ul className="flex flex-col space-y-4 px-4 py-6">
